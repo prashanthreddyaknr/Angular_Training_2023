@@ -1,0 +1,18 @@
+ng new ang-demo-test
+
+ng serve
+
+export NODE_OPTIONS=--openssl-legacy-provider
+
+ng generate component header
+
+ng generate component login
+
+ng generate component footer
+
+ng generate service service/login
+
+ng generate module app-routing --flat --module=app
+
+ng generate component welcome
+
